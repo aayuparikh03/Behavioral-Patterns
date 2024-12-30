@@ -1,5 +1,4 @@
 package org.example;
-
 // Abstract Class
 abstract class Beverage {
     // Template Method
