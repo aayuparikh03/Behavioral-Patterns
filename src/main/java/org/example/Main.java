@@ -10,19 +10,15 @@ abstract class Beverage {
             addCondiments();
         }
     }
-
     protected void boilWater() {
         System.out.println("Boiling water...");
     }
-
     protected void pourInCup() {
         System.out.println("Pouring into cup...");
     }
-
     // Abstract methods to be implemented by subclasses
     protected abstract void brew();
     protected abstract void addCondiments();
-
     // Hook method - can be overridden by subclasses
     protected boolean customerWantsCondiments() {
         return true; // Default behavior
